@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "247622267903",
+    "project_id": "logintutorialunity-331fa",
+    "storage_bucket": "logintutorialunity-331fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:247622267903:android:6f915a9d96085b1a416dca",
+        "android_client_info": {
+          "package_name": "com.iss.googlelogintutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "247622267903-aui6coc9t1dsg1kqk5pklunqgpso0cei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iss.googlelogintutorial",
+            "certificate_hash": "e88fb1e4271684002761d31b7a04798feaaf4d09"
+          }
+        },
+        {
+          "client_id": "247622267903-08ii098uv8r82lau1frei2dd3pro7sei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4Stjp-tp_sKgsLEzZzgdKAxp3fFVam_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "247622267903-08ii098uv8r82lau1frei2dd3pro7sei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "300743319814",
+    "firebase_url": "https://makeover-474e5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "makeover-474e5",
+    "storage_bucket": "makeover-474e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300743319814:android:ef21d54192324739f3fe87",
+        "android_client_info": {
+          "package_name": "com.namp.dizzimakeover"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300743319814-2p7r4eo7f9na2u3d226n2ckce2bmpmj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzIFlzm_gHfCl-VSkJetLlnhrLis9uqbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300743319814-2p7r4eo7f9na2u3d226n2ckce2bmpmj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
