@@ -13,7 +13,9 @@ using System;
 public class FirebaseGoogleLogin : MonoBehaviour
 {
 
-    public string GoogleWebAPI = "247622267903-08ii098uv8r82lau1frei2dd3pro7sei.apps.googleusercontent.com";
+    public string GoogleWebAPI = "300743319814-2p7r4eo7f9na2u3d226n2ckce2bmpmj3.apps.googleusercontent.com";
+    private string WebClientId = "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";
+
     public GoogleSignInConfiguration Configuration;
 
     Firebase.DependencyStatus dependencyStatus = Firebase.DependencyStatus.UnavailableOther;
@@ -25,7 +27,6 @@ public class FirebaseGoogleLogin : MonoBehaviour
     public Image UserProfilePic;
     public string imageUrl;
     public GameObject Loginscreen, ProfileScreen;
-    private string WebClientId = "63749b2a4a177ce233bc1b86.6768a1fb4d74ae0e89162b8285649132";
 
     private void Awake()
     {
@@ -35,19 +36,17 @@ public class FirebaseGoogleLogin : MonoBehaviour
             RequestIdToken = true
 
         };
-
     }
 
     // Start is called before the first frame update
     void Start()
     {
         InitFirebase();
-        
     }
+
     void InitFirebase()
     {
         auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
-        
     }
 
     public void GoogleSignInClick()
@@ -72,6 +71,8 @@ public class FirebaseGoogleLogin : MonoBehaviour
         else
         {
             Firebase.Auth.Credential credential = Firebase.Auth.GoogleAuthProvider.GetCredential(task.Result.IdToken, null);
+
+            Debug.Log($"GoogleLoginToken: {task.Result.IdToken}");
 
             auth.SignInWithCredentialAsync(credential).ContinueWithOnMainThread(task =>
             {
